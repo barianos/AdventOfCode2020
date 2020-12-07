@@ -1,9 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/*
+ * "THE BEER-WARE LICENSE" (Revision 42): Anastasios Barianos wrote this file. 
+ * As long as you retain this notice you can do whatever you want with this stuff. 
+ * If we meet some day, and you think this stuff is worth it, you can buy me a beer in return. 
+ * Anastasios Barianos
+ */
+
+/***
+ *  For the problem presentation scroll to the end of the file.
+ *  This file covers the solution to Day 5 puzzles
+ */
 
 namespace Advent_Of_Code
 {
+    /// <summary>
+    /// This class implements all methods that are needed to solve the two puzzles of day 3 of Advent of Code 2020
+    /// </summary>
     class TreeSlopesProblem
     {
         private char[,] map;
@@ -75,7 +86,9 @@ namespace Advent_Of_Code
             ".#..#...#.#"
         };
 
-
+        /// <summary>
+        /// This array is the input given for me
+        /// </summary>
         string[] input = {".#.#....##.......#..........#..",
                 "...#...........##...#..#.......",
                 "#.####......##.#...#......#.#..",

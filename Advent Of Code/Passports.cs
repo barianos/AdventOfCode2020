@@ -11,11 +11,14 @@ using System.Collections.Generic;
 
 /***
  *  For the problem presentation scroll to the end of the file.
- *
+ *  This file covers the solution to Day 4 puzzles
  */
 namespace Advent_Of_Code
 {
-    //This should have been done with regular expressions
+    /// <summary>
+    /// This class implements all methods that are needed to solve the two puzzles of day 1 of Advent of Code 2020
+    /// </summary>
+    //TODO: Utilize regular expressions -> Cleaner, optimized code
     class Passports
     {
         List<string> array = new List<string>();
@@ -274,6 +277,10 @@ namespace Advent_Of_Code
             return retv;
         }
 
+
+        /// <summary>
+        /// This array is the input given for me
+        /// </summary>
         string[] input = {
             "byr:1937",
 "eyr:2030 pid:154364481",

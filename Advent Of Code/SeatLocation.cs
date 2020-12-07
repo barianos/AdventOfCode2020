@@ -12,11 +12,20 @@ using System.Text;
 
 /***
  *  For the problem presentation scroll to the end of the file.
-
+ *  This file covers the solution to Day 5 puzzles
  */
 
 namespace Advent_Of_Code
 {
+    /// <summary>
+    /// This class implements all methods that are needed to solve the two puzzles of day 5 of Advent of Code 2020
+    /// </summary>
+    /// <remarks>
+    /// For this particular one, the "smart" solution is to utilize binary numbers, since the problem is given as a BSP
+    /// However I also played around with a more literal interpretation of the problem, and got myself a second solution.
+    /// Both solutions return the same value. 
+    /// </remarks>
+    //TODO: Check speed of the two implementations and compare stats.
     class SeatLocation
     {
         /*********
@@ -214,6 +223,9 @@ namespace Advent_Of_Code
             return retv;
         }
 
+        /// <summary>
+        /// This array is the input given for me
+        /// </summary>
         private string[] input = {
         "BFFBFBBRLR",
 "FFFFBBBLRR",

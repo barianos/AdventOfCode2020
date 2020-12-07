@@ -22,7 +22,7 @@ namespace Advent_Of_Code
 {
     class Program
     {
-        //static int CURRENT_YEAR = 2020;
+        static int CURRENT_YEAR = 2020;
         static void Main(string[] args)
         {
 
