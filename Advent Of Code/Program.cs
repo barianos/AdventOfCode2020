@@ -32,11 +32,14 @@ namespace Advent_Of_Code
             //Do a more elegant way for day 5 part 2
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
 
-            //Day 7 Solution
-            SeatLocation mySeat = new SeatLocation();
-            Console.WriteLine("Binary: " + mySeat.getMySeat());
-            //Console.WriteLine("Binary: " + mySeat.getLargestID()); //solution utilizing binary logic
-            //Console.WriteLine("Max Id: " + mySeat.findMaxID()); //dummies way
+            //Day 6 Solution
+            CustomCustoms cc = new CustomCustoms();
+
+            ////Day 5 Solution
+            //SeatLocation mySeat = new SeatLocation();
+            //Console.WriteLine("Binary: " + mySeat.getMySeat());
+            ////Console.WriteLine("Binary: " + mySeat.getLargestID()); //solution utilizing binary logic
+            ////Console.WriteLine("Max Id: " + mySeat.findMaxID()); //dummies way
 
             ////Day 4 Solution
             //Passports p = new Passports();
