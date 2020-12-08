@@ -25,15 +25,15 @@ namespace Advent_Of_Code
         static int CURRENT_YEAR = 2020;
         static void Main(string[] args)
         {
-
-
-            //TODO add ekfwniseis to all files
-            //Redo day 4 with regex
-            //Do a more elegant way for day 5 part 2
+            //TODO: day 4 with regex
+            //TODO:Do a more elegant way for day 5 part 2
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
 
-            //Day 6 Solution
-            CustomCustoms cc = new CustomCustoms();
+            //Day 7 
+            Haversacks h = new Haversacks();
+
+            ////Day 6 Solution
+            //CustomCustoms cc = new CustomCustoms();
 
             ////Day 5 Solution
             //SeatLocation mySeat = new SeatLocation();
