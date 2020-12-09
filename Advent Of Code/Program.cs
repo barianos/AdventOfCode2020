@@ -1,5 +1,10 @@
 ﻿using System;
 using System.Collections;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 
 /*
@@ -26,10 +31,11 @@ namespace Advent_Of_Code
         static void Main(string[] args)
         {
             //TODO: day 4 with regex
-            //TODO:Do a more elegant way for day 5 part 2
+            //TODO: Do a more elegant way for day 5 part 2
+
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
 
-            //Day 7 
+            //Day 7 Solution
             Haversacks h = new Haversacks();
 
             ////Day 6 Solution
@@ -63,9 +69,9 @@ namespace Advent_Of_Code
 
             //Console.WriteLine("you will hit " + prod + " trees!");
 
-            //Day 3 Solution 1
+            ////Day 3 Solution 1
             //TreeSlopesProblem tsp = new TreeSlopesProblem();
-            //int treesHit = tsp.traverseMap(3,1);
+            //int treesHit = tsp.traverseMap(3, 1);
             //Console.WriteLine("you will hit " + treesHit + " trees!");
 
             ////Day2 Solution 2
@@ -80,10 +86,11 @@ namespace Advent_Of_Code
             //int day1Solution = firstDay.generateArraylistProduct(listOfAddents);
         }
 
-
-
-
     }
 
 
+
+
 }
+
+
