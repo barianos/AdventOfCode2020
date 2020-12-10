@@ -35,7 +35,13 @@ namespace Advent_Of_Code
 
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
 
-            
+            ////Day 9
+            //EncodingError ee = new EncodingError();
+            //long part1 = ee.FindWeaknessInSequence();
+            //Console.WriteLine("Part 1 Number: " + part1);
+            //long part2 = ee.RepairWeakinessInSequence(part1,0);
+            //Console.WriteLine("Part 2 Number: " + part2);
+
             ////Day8 Solution
             //HandheldHalting hh = new HandheldHalting();
             //int acc = hh.ExecuteProgramToHalt();

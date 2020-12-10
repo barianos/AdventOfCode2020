@@ -1,11 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Linq;
+
+
+/*
+ * "THE BEER-WARE LICENSE" (Revision 42): Anastasios Barianos wrote this file. 
+ * As long as you retain this notice you can do whatever you want with this stuff. 
+ * If we meet some day, and you think this stuff is worth it, you can buy me a beer in return. 
+ * Anastasios Barianos
+ */
+
+/***
+ *  For the problem presentation scroll to the end of the file.
+ *  This file covers the solution to Day 8 puzzles
+ */
 
 namespace Advent_Of_Code
 {
+    /// <summary>
+    /// This class implements all methods that are needed to solve the two puzzles of day 9 of Advent of Code 2020
+    /// </summary>
     class HandheldHalting
     {
         int accumulator;
@@ -20,6 +33,9 @@ namespace Advent_Of_Code
             history = new List<int>();
         }
 
+        /// <summary>
+        /// Swaps a jmp comand to a nop, or a nop to a jmp
+        /// </summary>
         private string SwapInstruction(string ins)
         {
             if (ins.Trim().StartsWith('j'))
@@ -57,7 +73,6 @@ namespace Advent_Of_Code
         public int ExecuteProgramToHalt()
         {
             int pointer = 0;
-            //tool = true;
             bool[] visits = new bool[instructions.Length];
             while (pointer < instructions.Length)
             {
@@ -97,17 +112,6 @@ namespace Advent_Of_Code
             string[] split = toSplit.Split(" ");
             return split;
         }
-
-
-        string iinput = @"nop +0
-                            acc +1
-                            jmp +4
-                            acc +3
-                            jmp -3
-                            acc -99
-                            acc +1
-                            jmp -4
-                            acc +6";
 
         string input = @"acc +13
                         acc -6
