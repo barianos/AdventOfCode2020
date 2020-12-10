@@ -21,11 +21,8 @@ namespace Advent_Of_Code
             set { count = value; }
         }
 
-
         public BagRule(string rule)
         {
-            //drab gray bags contain 5 mirrored white bags, 1 light green bag, 5 shiny lavender bags, 5 faded aqua bags.
-            ///bright lime bags contain no other bags.
             string[] splitted = rule.Trim().Split(" ");
             if (!splitted[0].Equals("no")){
                 color = splitted[1] + " " + splitted[2];

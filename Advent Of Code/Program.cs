@@ -35,8 +35,17 @@ namespace Advent_Of_Code
 
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
 
-            //Day 7 Solution
-            Haversacks h = new Haversacks();
+            
+            ////Day8 Solution
+            //HandheldHalting hh = new HandheldHalting();
+            //int acc = hh.ExecuteProgramToHalt();
+            //Console.WriteLine("Puzzle 1: Accumulator Value: " + acc);
+            //hh = new HandheldHalting();
+            //acc = hh.ExecuteToBoot();
+            //Console.WriteLine("Puzzle 2: Accumulator Value: " + acc);
+
+            ////Day 7 Solution
+            //Haversacks h = new Haversacks();
 
             ////Day 6 Solution
             //CustomCustoms cc = new CustomCustoms();
