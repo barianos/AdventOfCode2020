@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 
 /*
@@ -35,7 +34,6 @@ namespace Advent_Of_Code
             {
                 if (!checkNumber(i, DEPTH))
                 {
-                    //solved
                     return XmasSequence[i];
                 }
             }
@@ -86,7 +84,6 @@ namespace Advent_Of_Code
 
         }
 
-
         private bool checkNumber(int position, int depth)
         {
             bool status = false;
@@ -108,7 +105,6 @@ namespace Advent_Of_Code
             return status;
         }
 
-
         private List<long> transformInputToList()
         {
             List<string> input = new List<string>(File.ReadAllLines("C:\\Users\\User\\Documents\\DesktopDev\\Advent Of Code\\ProblemInputs\\Day9.txt"));
@@ -119,4 +115,5 @@ namespace Advent_Of_Code
             }
             return sequence;
         }
-    } }
+    } 
+}

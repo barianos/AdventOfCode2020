@@ -34,6 +34,8 @@ namespace Advent_Of_Code
             //TODO: Do a more elegant way for day 5 part 2
 
             Console.WriteLine("*********Welcome to the Advent Of Code!*******\n -------------------");
+            //Day10
+            AdapterArray adapters = new AdapterArray();
 
             ////Day 9
             //EncodingError ee = new EncodingError();
